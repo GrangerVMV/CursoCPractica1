@@ -23,3 +23,12 @@ Console.WriteLine("Tienes una edad de " + edad + " años");// uso de operador + 
 Console.WriteLine($"Ella tiene {edad2 + 2} años"); //uso de $ y {} para concatenar string y variables (interpolación)
 edad -= 2; //uso de operado -= para decremento
 Console.WriteLine("Tienes una edad de " + edad + " años");//operador + para concatenar
+
+int edadPersona1; //declaración explícita de variables una a una
+int edadPersona2;
+int edadPersona3;
+int edadPersona4;
+edadPersona1 = edadPersona2 = edadPersona3 = edadPersona4 = 25; //declaración explícita de variables conjuntamente
+Console.WriteLine($"Todas las personas del grupo tienen {edadPersona3} años");
+/*int edadPersona1, edadPersona2, edadPersona3, edadPersona4 = 5; //declaración explícita de variables conjuntamente, solo asigna valor a la última
+Console.WriteLine($"Todas las personas del grupo tienen { edadPersona4} años");*/
