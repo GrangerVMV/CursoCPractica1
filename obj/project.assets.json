@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VMV\\CursoCSharp\\CursoCPractica1\\CursoCPractica1\\CursoCPractica1.csproj",
+      "projectUniqueName": "C:\\VMV\\CursoCSharp\\CursoCPractica1\\CursoCPractica1.csproj",
       "projectName": "CursoCPractica1",
-      "projectPath": "C:\\VMV\\CursoCSharp\\CursoCPractica1\\CursoCPractica1\\CursoCPractica1.csproj",
+      "projectPath": "C:\\VMV\\CursoCSharp\\CursoCPractica1\\CursoCPractica1.csproj",
       "packagesPath": "C:\\Users\\Javier Ruiz\\.nuget\\packages\\",
-      "outputPath": "C:\\VMV\\CursoCSharp\\CursoCPractica1\\CursoCPractica1\\obj\\",
+      "outputPath": "C:\\VMV\\CursoCSharp\\CursoCPractica1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Javier Ruiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
