@@ -41,3 +41,18 @@ double temperatura = 34.8;
 int temperaturaSevilla;
 temperaturaSevilla = (int)temperatura;  // Conversión explícita o casting (no redondea, desecha la parte decimal)
 Console.WriteLine($"La temperatura en Sevilla es de {temperaturaSevilla} grados");
+
+int numHabitantes = 1000000;
+long numHabitantesSevilla2018;
+numHabitantesSevilla2018 = numHabitantes;
+Console.WriteLine($"El número de habitantes en Sevilla en 2018 es de {numHabitantesSevilla2018} de personas"); /*Esto es una conversión implícita
+                                                                                                                       * mismo tipo de datos, distinto numero de bits*/
+
+float pesoMaterial = 5.78F;
+double pesoMaterialPrec = pesoMaterial;
+Console.WriteLine($"El peso del material es de {pesoMaterialPrec} gramos"); // Otra conversión implícita. OJO al uso del sufijo F
+
+int temperatura2 = 34;
+double temperaturaSevilla2;
+temperaturaSevilla2 = temperatura2;  // Otra conversión implícita
+Console.WriteLine($"La temperatura en Sevilla es de {temperaturaSevilla} grados");
