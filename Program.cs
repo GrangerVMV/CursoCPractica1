@@ -56,3 +56,10 @@ int temperatura2 = 34;
 double temperaturaSevilla2;
 temperaturaSevilla2 = temperatura2;  // Otra conversión implícita
 Console.WriteLine($"La temperatura en Sevilla es de {temperaturaSevilla} grados");
+
+
+Console.WriteLine("Introduzca el primer sumando");
+int num1 = int.Parse(Console.ReadLine()); // Conversión de tipos: pasa de un texto (ReadLine) a un número entero
+Console.WriteLine("Introduzca el segundo sumando");
+int num2 = int.Parse(Console.ReadLine());
+Console.WriteLine($"La suma de {num1} y {num2} es {num1 + num2}");
