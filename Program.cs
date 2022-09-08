@@ -32,3 +32,7 @@ edadPersona1 = edadPersona2 = edadPersona3 = edadPersona4 = 25; //declaración e
 Console.WriteLine($"Todas las personas del grupo tienen {edadPersona3} años");
 /*int edadPersona1, edadPersona2, edadPersona3, edadPersona4 = 5; //declaración explícita de variables conjuntamente, solo asigna valor a la última
 Console.WriteLine($"Todas las personas del grupo tienen { edadPersona4} años");*/
+
+var edadPersona = 50; //Declaración implícita de la variable, el programa elige el tipo de variable, pero una vez lo define ya no se le puede cambiar el tipo
+                      // edadPersona = 50.5; // Esto daría error por intentar asociar un valor decimal cuando el programa la ha definido como int
+Console.WriteLine($"Juan tiene {edadPersona} años");
