@@ -63,3 +63,14 @@ int num1 = int.Parse(Console.ReadLine()); // Conversión de tipos: pasa de un te
 Console.WriteLine("Introduzca el segundo sumando");
 int num2 = int.Parse(Console.ReadLine());
 Console.WriteLine($"La suma de {num1} y {num2} es {num1 + num2}");
+
+const int VALOR = 5; // La constante se declara en MAYUSCULAS y se inicializa en la misma línea
+const int VALOR2 = 7;
+Console.WriteLine("El valor de la constante es {0}", VALOR); // Se usa el atajo CW+TAB+TAB para escribir Console.WriteLine y se pasa el VALOR de la constante como parámetro
+Console.WriteLine("El valor de la segunda constante es {1}", VALOR, VALOR2);
+
+const double PI = 3.1416; // Usamos PI como cte para calcular el área de un círculo
+Console.WriteLine("Introduzca el valor del radio");
+double radio = double.Parse(Console.ReadLine());
+//Console.WriteLine($"El área del círculo es {radio*radio*pi}");
+Console.WriteLine($"El área del círculo es {Math.Pow(radio, 2) * PI}"); //Usamos Math.Pow pa
