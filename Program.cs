@@ -18,3 +18,8 @@ Console.WriteLine("El resultado de dividir 5 entre 2 es " + 5.0 / 2.0); // para 
 Console.WriteLine("El resto de dividir 5 entre 2 es " + 5 % 2);// operador residuo %
 Console.WriteLine("Tienes una edad de " + (edad + 1) + " años");// (edad+1) incrementa en 1 la variable, edad+1 concatena un 1 al valor de la variable
 edad = edad + 8; // incrementar una variable
+
+Console.WriteLine("Tienes una edad de " + edad + " años");// uso de operador + para concatenar
+Console.WriteLine($"Ella tiene {edad2 + 2} años"); //uso de $ y {} para concatenar string y variables (interpolación)
+edad -= 2; //uso de operado -= para decremento
+Console.WriteLine("Tienes una edad de " + edad + " años");//operador + para concatenar
